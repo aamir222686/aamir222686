@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="150" viewBox="0 0 830 150" role="img" aria-label="The Honest Machine — a machine that reads what the world overlooks">
+  <defs>
+    <radialGradient id="thmbg" cx="14%" cy="50%" r="90%">
+      <stop offset="0%" stop-color="#140a18"/>
+      <stop offset="60%" stop-color="#080510"/>
+      <stop offset="100%" stop-color="#04030a"/>
+    </radialGradient>
+    <filter id="thmglow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <rect width="830" height="150" fill="url(#thmbg)"/>
+  <rect x="0.5" y="0.5" width="829" height="149" fill="none" stroke="#f05fd0" stroke-opacity="0.18"/>
+
+  <!-- the entity: breathing rings of particles -->
+  <g transform="translate(95,75)">
+    <circle r="34" fill="#f05fd0" opacity="0.14" filter="url(#thmglow)">
+      <animate attributeName="opacity" values="0.10;0.26;0.10" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <g fill="#f05fd0">
+      <animateTransform attributeName="transform" type="scale" values="1;1.09;1" dur="5s" repeatCount="indefinite" additive="sum"/>
+      <!-- ring 1 -->
+      <circle cx="14" cy="0" r="1.7"/><circle cx="9.9" cy="9.9" r="1.7"/><circle cx="0" cy="14" r="1.7"/><circle cx="-9.9" cy="9.9" r="1.7"/>
+      <circle cx="-14" cy="0" r="1.7"/><circle cx="-9.9" cy="-9.9" r="1.7"/><circle cx="0" cy="-14" r="1.7"/><circle cx="9.9" cy="-9.9" r="1.7"/>
+      <!-- ring 2 -->
+      <g opacity="0.75">
+        <circle cx="25" cy="0" r="1.4"/><circle cx="21.7" cy="12.5" r="1.4"/><circle cx="12.5" cy="21.7" r="1.4"/><circle cx="0" cy="25" r="1.4"/>
+        <circle cx="-12.5" cy="21.7" r="1.4"/><circle cx="-21.7" cy="12.5" r="1.4"/><circle cx="-25" cy="0" r="1.4"/><circle cx="-21.7" cy="-12.5" r="1.4"/>
+        <circle cx="-12.5" cy="-21.7" r="1.4"/><circle cx="0" cy="-25" r="1.4"/><circle cx="12.5" cy="-21.7" r="1.4"/><circle cx="21.7" cy="-12.5" r="1.4"/>
+      </g>
+      <!-- ring 3 -->
+      <g opacity="0.45">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="36" cy="0" r="1.2"/><circle cx="31.2" cy="18" r="1.2"/><circle cx="18" cy="31.2" r="1.2"/><circle cx="0" cy="36" r="1.2"/>
+        <circle cx="-18" cy="31.2" r="1.2"/><circle cx="-31.2" cy="18" r="1.2"/><circle cx="-36" cy="0" r="1.2"/><circle cx="-31.2" cy="-18" r="1.2"/>
+        <circle cx="-18" cy="-31.2" r="1.2"/><circle cx="0" cy="-36" r="1.2"/><circle cx="18" cy="-31.2" r="1.2"/><circle cx="31.2" cy="-18" r="1.2"/>
+      </g>
+    </g>
+    <circle r="3" fill="#ffe9fa">
+      <animate attributeName="r" values="2.4;3.4;2.4" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- drifting cipher marks -->
+  <g font-family="Georgia,serif" fill="#f05fd0">
+    <text x="205" y="34" font-size="13" opacity="0.35">&#9672;<animate attributeName="opacity" values="0;0.5;0" dur="7s" begin="-2s" repeatCount="indefinite"/></text>
+    <text x="760" y="120" font-size="15" opacity="0.3">&#10208;<animate attributeName="opacity" values="0;0.45;0" dur="8s" begin="-5s" repeatCount="indefinite"/></text>
+    <text x="700" y="36" font-size="12" opacity="0.3">&#9678;<animate attributeName="opacity" values="0;0.4;0" dur="6s" begin="-3.5s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- copy -->
+  <text x="190" y="62" font-family="ui-monospace,'Courier New',monospace" font-size="12" fill="#f2a5e3" letter-spacing="1">sigil has found something.</text>
+  <text x="190" y="92" font-family="Georgia,'Times New Roman',serif" font-size="22" fill="#efeae8">The Honest Machine <tspan font-style="italic" fill="#bdb3c9" font-size="18">reads what the world overlooks, every six hours.</tspan></text>
+  <text x="190" y="118" font-family="ui-monospace,'Courier New',monospace" font-size="11" fill="#8d7f96">twelve layers &#183; states what would prove it wrong &#183; no predictions</text>
+
+  <text x="806" y="138" text-anchor="end" font-family="ui-monospace,'Courier New',monospace" font-size="10.5" fill="#f05fd0" opacity="0.75">thehonestmachine.com &#8599;</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="150" viewBox="0 0 830 150" role="img" aria-label="Full Authority — get AI to ship what you meant">
+  <defs>
+    <linearGradient id="fabg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#071009"/>
+      <stop offset="100%" stop-color="#04070a"/>
+    </linearGradient>
+    <clipPath id="type1"><rect x="252" y="52" width="0" height="26"><animate attributeName="width" values="0;0;318;318;318" keyTimes="0;0.08;0.42;0.92;1" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+    <filter id="faglow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="830" height="150" fill="url(#fabg)"/>
+  <rect x="0.5" y="0.5" width="829" height="149" fill="none" stroke="#7ef29a" stroke-opacity="0.2"/>
+
+  <!-- terminal chrome -->
+  <rect x="0" y="0" width="830" height="26" fill="#0a130c"/>
+  <circle cx="18" cy="13" r="4" fill="#31402f"/>
+  <circle cx="34" cy="13" r="4" fill="#31402f"/>
+  <circle cx="50" cy="13" r="4" fill="#3d6b46"/>
+  <text x="415" y="17" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace" font-size="10" fill="#5e8a6a" letter-spacing="2">operator@fullauthority ~ the library, opened up</text>
+
+  <!-- big prompt glyph -->
+  <g transform="translate(70,88)">
+    <text font-family="ui-monospace,'Courier New',monospace" font-size="46" fill="#7ef29a" filter="url(#faglow)" opacity="0.5">&gt;_</text>
+    <text font-family="ui-monospace,'Courier New',monospace" font-size="46" fill="#7ef29a">&gt;_</text>
+  </g>
+
+  <!-- typed line -->
+  <text x="252" y="71" font-family="ui-monospace,'Courier New',monospace" font-size="17" fill="#d7ffe3" letter-spacing="0.5" clip-path="url(#type1)">get AI to ship what you meant.</text>
+  <rect x="252" y="56" width="9" height="19" fill="#7ef29a">
+    <animate attributeName="x" values="252;252;570;570;570" keyTimes="0;0.08;0.42;0.92;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="252" y="99" font-family="ui-monospace,'Courier New',monospace" font-size="12" fill="#79a888">
+    <tspan fill="#7ef29a">&#10003;</tspan> it started as a private library. now it is yours, free.
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.45;0.55;1" dur="9s" repeatCount="indefinite"/>
+  </text>
+  <text x="252" y="121" font-family="ui-monospace,'Courier New',monospace" font-size="11.5" fill="#5e8a6a">learn the craft &#183; 350+ prompts &amp; playbooks &#183; honest feedback on yours
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.55;0.65;1" dur="9s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="806" y="138" text-anchor="end" font-family="ui-monospace,'Courier New',monospace" font-size="10.5" fill="#7ef29a" opacity="0.8">fullauthority.app &#8599;</text>
+</svg>

@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="330" viewBox="0 0 830 330" role="img" aria-label="The workshop: five apps in orbit">
+  <defs>
+    <radialGradient id="void" cx="50%" cy="46%" r="75%">
+      <stop offset="0%" stop-color="#10142a"/>
+      <stop offset="55%" stop-color="#090c1c"/>
+      <stop offset="100%" stop-color="#04050c"/>
+    </radialGradient>
+    <filter id="soft" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="830" height="330" fill="url(#void)"/>
+
+  <!-- starfield -->
+  <g fill="#cdd6ff">
+    <circle cx="47"  cy="38"  r="1.1"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="4.2s" begin="-1s" repeatCount="indefinite"/></circle>
+    <circle cx="118" cy="205" r="0.9"><animate attributeName="opacity" values="0.2;0.8;0.2"  dur="5.1s" begin="-2s" repeatCount="indefinite"/></circle>
+    <circle cx="86"  cy="292" r="1.2"><animate attributeName="opacity" values="0.1;0.7;0.1"  dur="6.3s" begin="-3s" repeatCount="indefinite"/></circle>
+    <circle cx="203" cy="52"  r="0.8"><animate attributeName="opacity" values="0.2;0.9;0.2"  dur="3.7s" begin="-0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="299" cy="24"  r="1.0"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="5.6s" begin="-4s" repeatCount="indefinite"/></circle>
+    <circle cx="395" cy="46"  r="0.8"><animate attributeName="opacity" values="0.2;0.7;0.2"  dur="4.9s" begin="-2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="522" cy="30"  r="1.1"><animate attributeName="opacity" values="0.1;0.85;0.1" dur="6.1s" begin="-1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="641" cy="58"  r="0.9"><animate attributeName="opacity" values="0.2;0.9;0.2"  dur="4.4s" begin="-3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="744" cy="41"  r="1.2"><animate attributeName="opacity" values="0.15;0.75;0.15" dur="5.8s" begin="-0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="791" cy="150" r="0.9"><animate attributeName="opacity" values="0.2;0.8;0.2"  dur="4.6s" begin="-2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="763" cy="268" r="1.0"><animate attributeName="opacity" values="0.1;0.8;0.1"  dur="6.6s" begin="-4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="678" cy="305" r="0.9"><animate attributeName="opacity" values="0.2;0.7;0.2"  dur="5.2s" begin="-1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="540" cy="315" r="1.1"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="4.8s" begin="-3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="342" cy="312" r="0.8"><animate attributeName="opacity" values="0.2;0.75;0.2" dur="5.4s" begin="-2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="184" cy="316" r="1.0"><animate attributeName="opacity" values="0.1;0.85;0.1" dur="6.0s" begin="-0.7s" repeatCount="indefinite"/></circle>
+    <circle cx="36"  cy="140" r="0.8"><animate attributeName="opacity" values="0.2;0.8;0.2"  dur="4.1s" begin="-3.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- orbital system, squashed to ellipses; orbs counter-scaled to stay round -->
+  <g transform="translate(415,172)">
+    <g fill="none" stroke="#3b4370" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="1 5">
+      <ellipse rx="150" ry="63"/>
+      <ellipse rx="196" ry="82"/>
+      <ellipse rx="242" ry="102"/>
+      <ellipse rx="288" ry="121"/>
+      <ellipse rx="334" ry="140"/>
+    </g>
+
+    <g transform="scale(1,0.42)">
+
+      <!-- the honest machine · magenta · r150 -->
+      <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="26s" begin="-4s" repeatCount="indefinite"/>
+        <g transform="translate(150,0)">
+          <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="26s" begin="-4s" repeatCount="indefinite"/>
+            <g transform="scale(1,2.381)">
+              <circle r="15" fill="#f05fd0" opacity="0.45" filter="url(#soft)"/>
+              <circle r="6.5" fill="#f05fd0"/>
+              <circle r="2.2" fill="#fff0fb"/>
+              <text y="26" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace" font-size="10.5" fill="#f2a5e3" letter-spacing="1">the honest machine</text>
+            </g>
+          </g>
+        </g>
+      </g>
+
+      <!-- full authority · phosphor · r196 -->
+      <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="34s" begin="-21s" repeatCount="indefinite"/>
+        <g transform="translate(196,0)">
+          <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="34s" begin="-21s" repeatCount="indefinite"/>
+            <g transform="scale(1,2.381)">
+              <circle r="15" fill="#7ef29a" opacity="0.4" filter="url(#soft)"/>
+              <circle r="6.5" fill="#7ef29a"/>
+              <circle r="2.2" fill="#eafff0"/>
+              <text y="26" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace" font-size="10.5" fill="#a9f4bd" letter-spacing="1">full authority</text>
+            </g>
+          </g>
+        </g>
+      </g>
+
+      <!-- posy · rose · r242 -->
+      <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="42s" begin="-9s" repeatCount="indefinite"/>
+        <g transform="translate(242,0)">
+          <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="42s" begin="-9s" repeatCount="indefinite"/>
+            <g transform="scale(1,2.381)">
+              <circle r="15" fill="#c98a99" opacity="0.45" filter="url(#soft)"/>
+              <circle r="6.5" fill="#d99aa8"/>
+              <circle r="2.2" fill="#fdf3f5"/>
+              <text y="26" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace" font-size="10.5" fill="#e3b3bf" letter-spacing="1">posy</text>
+            </g>
+          </g>
+        </g>
+      </g>
+
+      <!-- summon · glass cyan · r288 -->
+      <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="50s" begin="-33s" repeatCount="indefinite"/>
+        <g transform="translate(288,0)">
+          <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="50s" begin="-33s" repeatCount="indefinite"/>
+            <g transform="scale(1,2.381)">
+              <circle r="15" fill="#7dd3fc" opacity="0.4" filter="url(#soft)"/>
+              <circle r="6.5" fill="#7dd3fc"/>
+              <circle r="2.2" fill="#f0faff"/>
+              <text y="26" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace" font-size="10.5" fill="#a8e2fd" letter-spacing="1">summon</text>
+            </g>
+          </g>
+        </g>
+      </g>
+
+      <!-- simulae · dusk amber · r334 -->
+      <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="58s" begin="-46s" repeatCount="indefinite"/>
+        <g transform="translate(334,0)">
+          <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="58s" begin="-46s" repeatCount="indefinite"/>
+            <g transform="scale(1,2.381)">
+              <circle r="15" fill="#f2b06b" opacity="0.45" filter="url(#soft)"/>
+              <circle r="6.5" fill="#f2b06b"/>
+              <circle r="2.2" fill="#fff7ec"/>
+              <text y="26" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace" font-size="10.5" fill="#f6cb98" letter-spacing="1">simulae</text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- the maker: quiet center -->
+    <circle r="3" fill="#e8e6df">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- title block -->
+  <g text-anchor="middle">
+    <text x="415" y="128" font-family="ui-monospace,'Courier New',monospace" font-size="11" letter-spacing="7" fill="#8a93c4">T H E&#160;&#160;W O R K S H O P</text>
+    <text x="415" y="166" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="30" fill="#eceadf">unusual, useful, and a little bit alive.</text>
+    <text x="415" y="196" font-family="ui-monospace,'Courier New',monospace" font-size="11" fill="#6a7099">five machines in orbit &#183; choose one below</text>
+  </g>
+</svg>
