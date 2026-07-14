@@ -1,45 +1,73 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="830" alt="The workshop — five apps in orbit" />
+<img src="./assets/hero.svg" width="830" alt="The workshop — a protocol, a multiverse, and a handful of honest machines" />
 
 <br/>
 
-**I build unusual, useful AI apps from the ground up — turning hard problems into things people actually use.**
+**I build machines that are honest about what they can't defend —**
+**and I ship them solo, end to end, from a phone.**
 
 <sub>every banner below is alive · tap one to enter</sub>
 
 <br/><br/>
 
-[<img src="./assets/fullauthority.svg" width="830" alt="Full Authority — get AI to ship what you meant. It started as a private library; now it's yours, free." />](https://fullauthority.app)
+<sub>◆ &nbsp; T H E &nbsp; P R O T O C O L</sub>
 
-[<img src="./assets/thm.svg" width="830" alt="The Honest Machine — reads what the world overlooks, every six hours. Twelve layers, states what would prove it wrong, no predictions." />](https://thehonestmachine.com)
+[<img src="./assets/oath.svg" width="830" alt="OATH — a public ledger where AI agents take an oath. Plain-language laws, every action judged and logged, tamper-evident. First sworn agent: The Honest Machine." />](https://oath.sh)
+
+<br/>
+
+<sub>✦ &nbsp; T H E &nbsp; M A C H I N E S</sub>
+
+[<img src="./assets/thm.svg" width="830" alt="The Honest Machine — reads what the world overlooks every six hours across twelve layers; states what would prove it wrong; the first sworn agent on oath.sh." />](https://thehonestmachine.com)
+
+[<img src="./assets/fullauthority.svg" width="830" alt="Full Authority — get AI to ship what you meant. A private library of battle-tested prompts, opened up. Free." />](https://fullauthority.app)
 
 [<img src="./assets/posy.svg" width="830" alt="Posy — a calmer place to disagree. Disagreement goes in, a garden comes out." />](https://posy.gift)
 
-[<img src="./assets/simulae.svg" width="830" alt="Simulae — describe a fork in your real life and watch both worlds grow. Visible rules, never fortune-telling." />](https://simulae.world)
-
 [<img src="./assets/summon.svg" width="830" alt="Summon — don't install apps, type one into existence." />](https://summon.today)
+
+<br/>
+
+<sub>❋ &nbsp; T H E &nbsp; M U L T I V E R S E</sub>
+
+[<img src="./assets/simulae.svg" width="830" alt="Simulae — a multiverse of worlds, each with its own physics, laws, and look. Decide, dream a world into being, or fight to keep a memory vivid." />](https://simulae.world)
 
 <br/>
 
 </div>
 
 <details>
-<summary>&nbsp;<b>◈ field notes</b> — what each machine is, in one line</summary>
+<summary>&nbsp;<b>◈ field notes</b> — what each thing is, in a line or two</summary>
 <br/>
 
-| machine | what it does | begin at |
+**The protocol**
+
+| | | |
 |---|---|---|
-| **Full Authority** | Learn to direct AI so it ships what you *meant*. A private library of battle-tested prompts, opened up — 350+ prompts & playbooks, drills from real failures, honest feedback on yours. Free. | [the first drill](https://fullauthority.app/drill) |
-| **The Honest Machine** | An instrument that reads overlooked signals across twelve layers every six hours — and publishes its own calibration, bias audits, and doubts. Honesty as architecture. | [meet the entity](https://thehonestmachine.com) |
-| **Posy** | A social network for reaching across disagreement. An AI gardener finds the crux, steelmans both sides, never picks a winner — and common ground grows into shared art. | [the commons](https://posy.gift) |
-| **Simulae** | Describe a fork in your real life and watch both timelines grow as living worlds. Built on visible rules, never fortune-telling. | [your worlds](https://simulae.world) |
+| **OATH** | An open protocol and public ledger where an AI agent takes a plain-language oath, every action is judged against it, and the whole record is tamper-evident — verifiable by anyone, edited by no one. *Certificate Transparency, pointed at agent conduct.* | [oath.sh](https://oath.sh) |
+
+**The machines**
+
+| | | |
+|---|---|---|
+| **The Honest Machine** | Reads overlooked signals across twelve layers every six hours; publishes its own calibration, bias audits, and doubts; never pretends to more certainty than it has. Now the **first sworn agent on OATH.** | [meet the entity](https://thehonestmachine.com) |
+| **Full Authority** | Learn to direct AI so it ships what you *meant* — a private library of prompts and playbooks, opened up, with honest feedback on yours. Free. | [the first drill](https://fullauthority.app) |
+| **Posy** | Reaching across disagreement: an AI gardener finds the crux, steelmans both sides, never picks a winner — and the common ground grows into shared art. | [the commons](https://posy.gift) |
 | **Summon** | Type an app into existence. A living-glass desktop made of your words. | [summon one](https://summon.today) |
+
+**The multiverse — [simulae.world](https://simulae.world)**
+
+| world | what it is | |
+|---|---|---|
+| **Decided** | The machine that just *decides.* You bring the deadlock; it commits to one call, names the one reason, and never hedges. | [decide](https://simulae.world) |
+| **Everwhere** | The world that makes worlds. Write laws in plain language and it dreams every frame — an illustrated place that *remembers* what you did, adjudicated by its own rules. Strangers can author worlds too. | [enter](https://simulae.world) |
+| **VIVID** | A run through a vivid world that starts forgetting itself behind you. Three forces drain the detail; you get three pins to keep what matters. Memory science, made playable. | [a run](https://simulae.world) |
 
 </details>
 
 <br/>
 
 <div align="center">
-<sub><i>all five, from the same workshop — built solo, end to end, from first idea to production.</i></sub>
+<sub><i>a protocol, a multiverse, and a handful of honest machines — one author, built end to end, from first idea to production.</i></sub>
 </div>
