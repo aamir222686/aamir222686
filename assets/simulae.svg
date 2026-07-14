@@ -1,59 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="830" height="150" viewBox="0 0 830 150" role="img" aria-label="Simulae — the life you lived, the life you didn't">
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="150" viewBox="0 0 830 150" role="img" aria-label="Simulae — a multiverse of worlds, each with its own physics">
   <defs>
-    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#4a3f8f"/>
-      <stop offset="60%" stop-color="#8f6a9e"/>
-      <stop offset="100%" stop-color="#e8a08a"/>
-    </linearGradient>
+    <radialGradient id="simbg" cx="72%" cy="45%" r="85%">
+      <stop offset="0" stop-color="#241a4e"/><stop offset="60%" stop-color="#140f2e"/><stop offset="100%" stop-color="#0a0720"/>
+    </radialGradient>
+    <filter id="sglow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
   </defs>
+  <rect width="830" height="150" fill="url(#simbg)"/>
+  <rect x="0.5" y="0.5" width="829" height="149" fill="none" stroke="#8a6bd4" stroke-opacity="0.22"/>
 
-  <rect width="830" height="150" fill="url(#dusk)"/>
-  <rect x="0.5" y="0.5" width="829" height="149" fill="none" stroke="#2e2657" stroke-opacity="0.4"/>
-
-  <!-- faint god-rays -->
-  <polygon points="600,0 660,0 560,150 520,150" fill="#ffffff" opacity="0.05"/>
-  <polygon points="700,0 740,0 660,150 630,150" fill="#ffffff" opacity="0.04"/>
-
-  <!-- island: the life you lived (amber) -->
-  <g transform="translate(600,58)">
-    <animateTransform attributeName="transform" type="translate" values="600 58;600 51;600 58" dur="7s" repeatCount="indefinite"/>
-    <polygon points="-46,6 46,6 30,14 6,58 -2,58 -30,14" fill="#3a3050"/>
-    <polygon points="-46,6 46,6 38,12 -38,12" fill="#5c8f4e"/>
-    <polygon points="-46,6 -20,6 -30,14 -38,12" fill="#6ba55b"/>
-    <rect x="-26" y="-10" width="12" height="16" fill="#c96f3f"/>
-    <polygon points="-26,-10 -20,-18 -14,-10" fill="#8c4a52"/>
-    <rect x="-4" y="-8" width="10" height="14" fill="#d9b65c"/>
-    <polygon points="8,6 14,-8 20,6" fill="#3f7a4a"/>
-    <polygon points="22,6 27,-5 32,6" fill="#356a41"/>
-    <circle cx="-9" cy="-2" r="4.5" fill="#ffd27a" opacity="0.85">
-      <animate attributeName="opacity" values="0.5;0.95;0.5" dur="3.2s" repeatCount="indefinite"/>
-    </circle>
+  <!-- the hub + three worlds orbiting -->
+  <g transform="translate(632,75)">
+    <g fill="none" stroke="#5a4a8f" stroke-opacity="0.4" stroke-width="1" stroke-dasharray="1 4">
+      <circle r="42"/><circle r="66"/>
+    </g>
+    <!-- Decided · brass seal -->
+    <g transform="translate(42,0)"><circle r="11" fill="#E0A458" opacity="0.35" filter="url(#sglow)"/>
+      <path d="M0 -6 l5 3 v6 l-5 3 -5 -3 v-6Z" fill="#1a1230" stroke="#E0A458" stroke-width="1.3"/><circle r="1.6" fill="#f4d9a8"/>
+      <text y="22" text-anchor="middle" font-family="ui-monospace,monospace" font-size="7.5" fill="#d9b57e" letter-spacing="0.5">decided</text></g>
+    <!-- Everwhere · candlelit gilt -->
+    <g transform="translate(-30,-30)"><circle r="10" fill="#f2c46b" opacity="0.3" filter="url(#sglow)"/>
+      <circle r="5" fill="#f2c46b"/><circle r="1.6" fill="#fff7e6"/>
+      <text y="20" text-anchor="middle" font-family="ui-monospace,monospace" font-size="7.5" fill="#f0cf92" letter-spacing="0.5">everwhere</text></g>
+    <!-- VIVID · prism pink -->
+    <g transform="translate(-18,42)"><circle r="10" fill="#FF3D8A" opacity="0.32" filter="url(#sglow)"/>
+      <circle r="5" fill="#FF7AB0"/><circle r="1.6" fill="#ffe9f2"/>
+      <text y="20" text-anchor="middle" font-family="ui-monospace,monospace" font-size="7.5" fill="#ff9ec4" letter-spacing="0.5">vivid</text></g>
+    <!-- hub core -->
+    <circle r="3.4" fill="#efeaff"><animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- island: the life you didn't (teal) -->
-  <g transform="translate(742,84)">
-    <animateTransform attributeName="transform" type="translate" values="742 84;742 92;742 84" dur="8.4s" begin="-3s" repeatCount="indefinite"/>
-    <polygon points="-38,5 38,5 24,12 4,48 -2,48 -24,12" fill="#2c2a4e"/>
-    <polygon points="-38,5 38,5 31,10 -31,10" fill="#4d7a6f"/>
-    <rect x="-16" y="-16" width="10" height="21" fill="#8ea3c9"/>
-    <polygon points="-16,-16 -11,-24 -6,-16" fill="#5661a8"/>
-    <rect x="2" y="-9" width="9" height="14" fill="#7a8fc0"/>
-    <polygon points="18,5 23,-6 28,5" fill="#3c6b62"/>
-    <circle cx="-3" cy="-3" r="4" fill="#7ff0dd" opacity="0.8">
-      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="4.1s" begin="-1s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+  <text x="42" y="54" font-family="Georgia,'Times New Roman',serif" font-size="24" fill="#efeaff">Simulae <tspan font-style="italic" font-size="18" fill="#b9aee0">— a multiverse of worlds.</tspan></text>
+  <text x="42" y="84" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="15" fill="#a99fd0">one hub, many worlds — each with its own physics, laws, and look.</text>
+  <text x="42" y="110" font-family="ui-monospace,'Courier New',monospace" font-size="10.5" letter-spacing="0.8" fill="#7d72a8">decide · dream a world into being · fight to keep a memory vivid</text>
 
-  <!-- drifting mote between them -->
-  <circle cx="672" cy="72" r="1.6" fill="#fff3d6" opacity="0.8">
-    <animate attributeName="cy" values="72;60;72" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="9s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- copy -->
-  <text x="64" y="52" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="24" fill="#fdf6ec">the life you lived &#183; the life you didn&#8217;t</text>
-  <text x="64" y="82" font-family="Georgia,'Times New Roman',serif" font-size="16" fill="#f3e2d8">Simulae <tspan font-style="italic" fill="#e7cfc8">&#8212; describe a fork in your real life and watch both worlds grow.</tspan></text>
-  <text x="64" y="108" font-family="ui-monospace,'Courier New',monospace" font-size="11" letter-spacing="1" fill="#f7dcae">built on visible rules &#183; never fortune-telling &#183; every branch is yours to walk</text>
-
-  <text x="64" y="136" font-family="ui-monospace,'Courier New',monospace" font-size="10.5" fill="#fdf6ec" opacity="0.85">simulae.world &#8599;</text>
+  <text x="42" y="136" font-family="ui-monospace,'Courier New',monospace" font-size="10.5" fill="#b58af0" opacity="0.9">simulae.world ↗</text>
 </svg>
