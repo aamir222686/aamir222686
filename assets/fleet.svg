@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 320" width="830" height="320" role="img" aria-label="The fleet, alive. One author, thirteen repos, shipped from a phone.">
+<style>
+@keyframes breathe {0%,100%{opacity:.3}50%{opacity:1}}
+@keyframes drift {from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes ecg {to{stroke-dashoffset:-1200}}
+@keyframes glowp {0%,100%{opacity:.55}50%{opacity:1}}
+.n{animation:breathe 2.4s ease-in-out infinite}
+.n2{animation:breathe 3.6s ease-in-out infinite}
+.n3{animation:breathe 5s ease-in-out infinite}
+.still{opacity:.35}
+.orbit{transform-origin:415px 150px;animation:drift 140s linear infinite}
+.orbit2{transform-origin:415px 150px;animation:drift 90s linear infinite reverse}
+.core{animation:glowp 4s ease-in-out infinite}
+.wire{stroke-dasharray:6 1194;animation:ecg 14s linear infinite}
+@media (prefers-reduced-motion: reduce){.n,.n2,.n3,.orbit,.orbit2,.core,.wire{animation:none}}
+text{font-family:ui-monospace,'Courier New',monospace}
+</style>
+<rect width="830" height="320" fill="#05060a"/>
+<rect x="12.5" y="12.5" width="805" height="295" fill="none" stroke="#1d2230"/>
+<path d="M12.5 36.5 h18 M36.5 12.5 v18 M817.5 36.5 h-18 M793.5 12.5 v18 M12.5 283.5 h18 M36.5 307.5 v-18 M817.5 283.5 h-18 M793.5 307.5 v-18" stroke="#2b3242" fill="none"/>
+<g class="orbit"><circle cx="415" cy="150" r="118" fill="none" stroke="#1d2230" stroke-dasharray="2 9"/></g>
+<g class="orbit2"><circle cx="415" cy="150" r="74" fill="none" stroke="#1d2230" stroke-dasharray="1 7"/></g>
+<g stroke="#1d2230" opacity=".5">
+<path d="M415 150 L295 96"/><path d="M415 150 L349 226"/><path d="M415 150 L512 84"/><path d="M415 150 L538 190"/><path d="M415 150 L253 158"/><path d="M415 150 L458 46"/><path d="M415 150 L580 132"/><path d="M415 150 L330 52"/><path d="M415 150 L488 244"/><path d="M415 150 L262 232"/><path d="M415 150 L560 240"/><path d="M415 150 L602 74"/>
+</g>
+<g class="core"><path d="M415 128 L437 150 L415 172 L393 150 Z" fill="none" stroke="#35c9dd" stroke-width="2"/><circle cx="415" cy="150" r="3" fill="#00f0ff"/></g>
+<circle class="n" cx="295" cy="96" r="6" fill="#00f0ff"/>
+<circle class="n" cx="349" cy="226" r="6" fill="#c77dff"/>
+<circle class="n" cx="512" cy="84" r="6" fill="#b14aed"/>
+<circle class="n2" cx="538" cy="190" r="5" fill="#42ffb0"/>
+<circle class="n2" cx="253" cy="158" r="5" fill="#ff6ad5"/>
+<circle class="n2" cx="458" cy="46" r="5" fill="#39ff14"/>
+<circle class="n2" cx="580" cy="132" r="5" fill="#f7ff4d"/>
+<circle class="n3" cx="330" cy="52" r="4" fill="#5b8cff"/>
+<circle class="n3" cx="488" cy="244" r="4" fill="#5b8cff"/>
+<circle class="n3" cx="262" cy="232" r="4" fill="#ff6a2c"/>
+<circle class="still" cx="560" cy="240" r="4" fill="#ff6a2c"/>
+<circle class="still" cx="602" cy="74" r="4" fill="#9aa3b2"/>
+<path d="M40 288 H240 l8 -12 6 20 8 -28 6 20 5 -8 h180 l6 -9 7 20 8 -28 6 12 H700 l8 -16 8 24 6 -14 5 6 H790" fill="none" stroke="#35c9dd" stroke-width="1.2" opacity=".22"/>
+<path class="wire" d="M40 288 H240 l8 -12 6 20 8 -28 6 20 5 -8 h180 l6 -9 7 20 8 -28 6 12 H700 l8 -16 8 24 6 -14 5 6 H790" fill="none" stroke="#35c9dd" stroke-width="1.4" opacity=".9"/>
+<text x="40" y="52" font-size="12" letter-spacing="6" fill="#7a8494">THE FLEET</text>
+<text x="790" y="52" text-anchor="end" font-size="11" fill="#7a8494">live · breathing by last change</text>
+<text x="40" y="262" font-size="11" fill="#9aa3b2">one author · thirteen repos · a protocol, a mind, machines, worlds, and a lab</text>
+<text x="790" y="262" text-anchor="end" font-size="11" fill="#7a8494">shipped from a phone</text>
+</svg>
